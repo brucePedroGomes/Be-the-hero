@@ -1,7 +1,16 @@
 import React from 'react';
 
+import GlobalStyled from './styles/globa';
+
+import Routes from './routes';
+
 function App() {
-  return <h1>Be a Hero</h1>;
+  return (
+    <>
+      <GlobalStyled />
+      <Routes />
+    </>
+  );
 }
 
 export default App;
