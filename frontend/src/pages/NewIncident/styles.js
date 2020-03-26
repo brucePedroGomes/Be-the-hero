@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const RegisterContainer = styled.div`
+export const NewIncidentContainer = styled.div`
   width: 100%;
   max-width: 1120px;
   height: 100vh;
@@ -45,13 +45,8 @@ export const Content = styled.div`
     input {
       margin-top: 8px;
     }
-  }
-`;
-
-export const InputGroup = styled.div`
-  display: flex;
-
-  input + input {
-    margin-left: 8px;
+    textarea {
+      margin-top: 8px;
+    }
   }
 `;

@@ -12,7 +12,7 @@ export default createGlobalStyle`
 
 body {
     font: 400 14px Roboto, sans-serif;
-    background: #f0f0f5;
+    background: #eee;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -22,6 +22,10 @@ input, button, textarea {
 
 button {
     cursor: pointer;
+}
+
+.button {
+    
 
     width: 100%;
     height: 60px;
@@ -51,5 +55,35 @@ form input {
     border-radius: 8px;
     padding: 0 24px;
 }
+
+form textarea {
+    width: 100%;
+    min-height: 140px;
+    color: #333;
+    border: 1px solid #dcdce6;
+    border-radius: 8px;
+    padding: 16px 24px;
+    line-height: 24px;
+    resize: vertical;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    color: #41414d;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  svg {
+    margin-right: 8px;
+  }
 
 `;

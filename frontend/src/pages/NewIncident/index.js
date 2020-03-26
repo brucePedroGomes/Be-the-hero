@@ -1,0 +1,80 @@
+import React, { useState } from 'react';
+import { Link, useHistory } from 'react-router-dom';
+import { FiArrowLeft } from 'react-icons/fi';
+
+import { NewIncidentContainer, Content } from './styles';
+import LogoImg from '../../assets/logo.svg';
+
+import api from '../../services/api';
+
+function NewIncident() {
+  const [title, setTitle] = useState('');
+  const [description, setDescription] = useState('');
+  const [value, setValue] = useState('');
+  const ongId = localStorage.getItem('ongId');
+  const history = useHistory();
+
+  async function handleNewIncident(e) {
+    e.preventDefault();
+
+    const data = {
+      title,
+      description,
+      value
+    };
+    try {
+      await api.post('incidents', data, {
+        headers: {
+          authorization: ongId
+        }
+      });
+
+      history.push('/profile');
+    } catch (err) {
+      console.log(err);
+    }
+  }
+
+  return (
+    <NewIncidentContainer>
+      <Content>
+        <section>
+          <img src={LogoImg} alt="Be The Hero" />
+
+          <h1>Cadastrar um novo caso</h1>
+          <p>Descreva o caso detalhadamente para encontrar um hero.</p>
+
+          <Link to="/profile">
+            <FiArrowLeft size={18} color="#E02041" />
+            Voltar para home
+          </Link>
+        </section>
+        <form onSubmit={handleNewIncident}>
+          <input
+            placeholder="Titulo do caso"
+            value={title}
+            onChange={e => setTitle(e.target.value)}
+          />
+
+          <textarea
+            placeholder="Descricao"
+            value={description}
+            onChange={e => setDescription(e.target.value)}
+          />
+
+          <input
+            placeholder="Valor em reais"
+            value={value}
+            onChange={e => setValue(e.target.value)}
+          />
+
+          <button className="button" type="submit">
+            Cadastrar
+          </button>
+        </form>
+      </Content>
+    </NewIncidentContainer>
+  );
+}
+
+export default NewIncident;
