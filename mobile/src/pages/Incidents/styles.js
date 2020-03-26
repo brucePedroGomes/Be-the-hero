@@ -20,7 +20,7 @@ export default StyleSheet.create({
   title: {
     fontSize: 30,
     marginBottom: 16,
-    marginTop: 48,
+    marginTop: 18,
     color: '#13131a'
   },
 
@@ -28,5 +28,40 @@ export default StyleSheet.create({
     fontSize: 16,
     lineHeight: 24,
     color: '#737380'
+  },
+
+  incidentList: {
+    marginTop: 28
+  },
+
+  incident: {
+    padding: 24,
+    borderRadius: 8,
+    backgroundColor: '#FFF',
+    marginBottom: 16
+  },
+
+  incidentProperty: {
+    fontSize: 14,
+    color: '#41414d',
+    fontWeight: 'bold'
+  },
+
+  incidentValue: {
+    marginTop: 8,
+    fontSize: 15,
+    marginBottom: 24,
+    color: '#737380'
+  },
+
+  detailsButton: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center'
+  },
+  detailsButtonText: {
+    color: '#e02041',
+    fontSize: 15,
+    fontWeight: 'bold'
   }
 });
