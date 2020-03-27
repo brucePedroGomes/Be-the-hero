@@ -5,7 +5,8 @@ export default StyleSheet.create({
   container: {
     flex: 1,
     paddingHorizontal: 24,
-    paddingTop: Constants.statusBarHeight + 20
+    paddingTop: Constants.statusBarHeight + 20,
+    backgroundColor: '#eee'
   },
 
   header: {
