@@ -16,6 +16,7 @@
   <a href="https://github.com/pedroleinar/be-the-hero/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/pedroleinar/be-the-hero">
   </a>
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
   </p>
 
 <img alt="Layout" src=".github/BeTheHero.png">
@@ -23,9 +24,7 @@
 
 ## 🦸‍♀️ Projeto
 
-Com essa aplicação, por meio do front-end web, as ONGs podem informar sobre seus casos, necessidades e o valor necessário para solucionar o problema.
-Com essas informações, pelo mobile, pessoas comuns, ou seja, toda a sociedade pode contruibir com um determinado caso e ser o herói para aquela ONG.
-É visado por meio da interação entre ONG e comunidade: A ampliação da área de atuação da ONG, o aumento da velocidade e eficácia na resolução dos problemas.
+Com essa aplicação as ONGs podem informar sobre seus casos, necessidades e o valor necessário para solucionar o problema. Com essas informações, toda a sociedade pode contruibir com um determinado caso e ser o herói para aquela ONG. Por meio da interação entre ONG e comunidade: o aumento da velocidade e eficácia na resolução dos problemas.
 
 ## 🚀 Tecnologias
 
@@ -51,6 +50,6 @@ Esta aplicação foi desenolvida com as tecnologias abaixo:
 
 A [Semana OmniStack](https://rocketseat.com.br/week/inscricao/11.0) é um evento 100% online e gratuito, onde a [Rocketseat](https://github.com/rocketseat) junto com seu CTO [Diego Fernandes](https://github.com/diego3g) e mais toda a comunidade, desenvolvem uma aplicação completa, desde o banco de dados, back-end, até o front-end web e mobile, tudo isso utilizando a stack JavaScript, ou seja, Node.js no back-end, ReactJS para web e React Native para mobile.
 
-<br>
+---
 
 Feito com ♥ by [Pedro Leinar](https://www.linkedin.com/in/pedroleinar/)
