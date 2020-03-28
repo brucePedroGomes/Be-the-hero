@@ -23,8 +23,8 @@
 
 ## 🦸‍♀️ Projeto
 
-Com essa aplicação, e por meio do front-end web, as ONGs podem informar sobre seus casos, necessidades e o valor necessário para solucionar o problema.
-A partir dessas informações, e por meio do front-end mobile, pessoas comuns, ou seja, toda a sociedade pode contruibir com um determinado caso e ser o herói de dia para aquela ONG.
+Com essa aplicação, por meio do front-end web, as ONGs podem informar sobre seus casos, necessidades e o valor necessário para solucionar o problema.
+Com essas informações, pelo mobile, pessoas comuns, ou seja, toda a sociedade pode contruibir com um determinado caso e ser o herói para aquela ONG.
 É visado por meio da interação entre ONG e comunidade: A ampliação da área de atuação da ONG, o aumento da velocidade e eficácia na resolução dos problemas.
 
 ## 🚀 Tecnologias
